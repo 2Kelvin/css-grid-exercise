@@ -1,2 +1,2 @@
 # css-grid-exercise
-practicing CSS grid
+Just a simple UI CSS grid practice
