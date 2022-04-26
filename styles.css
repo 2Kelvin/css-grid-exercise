@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.gridContainer > div{
+    margin: 10px;
+    border: solid black 1px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.gridContainer > div:nth-child(odd){
+    background-color: #74ccf5;
+}
