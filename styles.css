@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-size: .8em; */
 }
 
 .gridContainer{
@@ -13,10 +15,26 @@
 
 .gridContainer > div{
     border: solid black 1px;
-    padding: 5px;
     border-radius: 10px;
 }
 
 .gridContainer > div:nth-child(odd){
     background-color: #74ccf5;
+}
+
+.icon{
+    border: grey solid 1px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.icon > img{
+    align-items: center;
+    height: 35px;
+    width: 35px;
+}
+
+.iconParagraph{
+    margin: 10px;
+    text-align: center;
 }
