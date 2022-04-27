@@ -28,15 +28,15 @@
     width: fit-content;
     display: flex;
     margin: 15px auto;
-    height: 80px;
-    padding: 0 80px;
+    height: 60px;
+    padding: 0 60px;
 
 }
 
 .icon > img{
     margin: auto;
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
 }
 
 .iconParagraph{
