@@ -8,6 +8,10 @@
     font-weight: 450;
 }
 
+body{
+    background-color: #2a2a2a;
+}
+
 .gridContainer{
     height: fit-content;
     width: 32.5vw;
@@ -20,6 +24,8 @@
     grid-template-columns: 33% 33% 33%;
     gap: 10px;
     padding: 5px;
+    border: #464646 solid 1px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .gridContainer > div{
