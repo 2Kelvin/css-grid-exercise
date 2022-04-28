@@ -4,41 +4,57 @@
     box-sizing: border-box;
     color: #fff;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* font-size: .8em; */
+    font-size: 12px;
+    font-weight: 450;
 }
 
 .gridContainer{
+    height: fit-content;
+    width: 32.5vw;
+    min-width: 32.5vw;
+    max-width: 32.5vw;
+    background-color: #313131;
+    margin: 12vh auto;
+    border-radius: 10px;
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 33% 33% 33%;
     gap: 10px;
-    padding: 10px 20px;
+    padding: 5px;
 }
 
 .gridContainer > div{
-    border: solid black 1px;
-    border-radius: 10px;
-    background-color: rgb(61, 59, 59);
+    /* background-color: red; */
+    width: 130px;
+    height: fit-content;
+    padding: 0 10px;
+    
 }
 
 .icon{
-    border: grey solid 1px;
+    border: #464646 solid 1px;
+    background-color: #3d3d3d;
     border-radius: 5px;
-    width: fit-content;
+    /* width: fit-content; */
     display: flex;
-    margin: 15px auto;
-    height: 60px;
-    padding: 0 60px;
+    /* margin: 15px auto; */
+    padding: 17px 0px;
+    margin-top: 15px;
+    
 
 }
 
 .icon > img{
     margin: auto;
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
 }
 
 .iconParagraph{
-    margin: 20px 0;
+    padding: 15px 2px;
     text-align: center;
     width: 100%;
+}
+
+.blue{
+    background-color: #4cc2ff;
 }
