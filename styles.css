@@ -14,15 +14,13 @@ body{
 
 .gridContainer{
     height: fit-content;
-    width: 32.5vw;
-    min-width: 32.5vw;
-    max-width: 32.5vw;
+    width: fit-content;
     background-color: #313131;
-    margin: 12vh auto;
+    margin: 20vh auto;
     border-radius: 10px;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
     padding: 5px;
     border: #464646 solid 1px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -30,7 +28,6 @@ body{
 
 .gridContainer > div{
     /* background-color: red; */
-    width: 130px;
     height: fit-content;
     padding: 0 10px;
     
@@ -43,7 +40,7 @@ body{
     /* width: fit-content; */
     display: flex;
     /* margin: 15px auto; */
-    padding: 17px 0px;
+    padding: 15px 0px;
     margin-top: 15px;
     
 
