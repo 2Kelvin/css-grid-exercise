@@ -1,2 +1,2 @@
 # css-grid-exercise
-Just a simple UI CSS grid practice
+Windows 11 Quick Settings Panel UI CSS grid practice
